@@ -219,7 +219,7 @@
                 @csrf
                 <div class="modal-header">
                     <h5 class="modal-title">Import Tagihan</h5>
-                    <a href="{{ asset('storage/template/template_import_sertifikat.xlsx') }}" class="btn btn-sm btn-success">
+                    <a href="{{ asset('storage/template/template_import_tagihan.xlsx') }}" class="btn btn-sm btn-success">
                         <i class="fas fa-download"></i> Download Template
                     </a>
                 </div>
