@@ -3,9 +3,10 @@
 /node_modules
 /storage/*
 !/storage/app
+!/storage/app/public   # Tambahkan baris ini agar folder public di dalam storage di-include
 !/storage/framework
 !/storage/logs
-!/storage/app/public
+/storage/*.key
 
 # Environment files
 .env
