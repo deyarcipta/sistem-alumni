@@ -1,10 +1,11 @@
 # Laravel & PHP related
 /vendor
 /node_modules
-/public/storage
 /storage/*
+!/storage/app
+!/storage/framework
+!/storage/logs
 !/storage/app/public
-/storage/*.key
 
 # Environment files
 .env
